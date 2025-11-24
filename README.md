@@ -1,45 +1,78 @@
-Avocado Price Prediction Project
-Overview
-This project focuses on predicting the prices of avocados using various regression algorithms. The dataset was sourced from Kaggle and includes relevant features to facilitate the prediction process.
+# 🥑 Avocado Price Prediction Project
 
-Features
-Utilizes various regression algorithms for avocado price prediction.
-Dataset collected from Kaggle, containing information about avocado prices and characteristics.
-Algorithms Used
-Linear Regression
-SVR
-Random Forest
-Gradient Boosting Models (GBM)
-Extreme Gradient Boosting (XGBoost)
-AdaBoostRegressor
-Decision Tree
-KNeighborsRegressor(KNN)
-Artificial Neural Networks (ANN)
-LSTM(Long Short term Memory)
-Dataset
-The dataset used in this project is sourced from Kaggle and includes information about avocado prices, types, and characteristics. It contains features such as average price, total volume, type, region, etc.
+## 📌 Overview
+This project focuses on predicting avocado prices using multiple regression algorithms. The dataset, sourced from Kaggle, includes essential features such as price, volume, type, and region. The project applies both traditional and deep-learning models to achieve accurate price forecasting.
 
-Project Structure
-data/: Contains the dataset files.
-notebooks/: Jupyter notebooks with the code for data exploration, preprocessing, and model training.
-src/: Python source code for the project.
-requirements.txt: List of dependencies needed to run the project.
-How to Run
-Install dependencies using pip install -r requirements.txt.
-Execute the notebooks in the notebooks/ folder in the given order.
-Run the scripts in the src/ folder for further analysis or model training.
-Results
-The sequence of all the algorithms used is as follows:
+---
 
-Linear Regression
-SVR
-Random Forest
-Gradient Boosting Models (GBM)
-Extreme Gradient Boosting (XGBoost)
-AdaBoostRegressor
-Decision Tree
-KNeighborsRegressor(KNN)
-Artificial Neural Networks (ANN)
-LSTM(Long Short term Memory)
-The Accuracy of all the following 10 Regression Algorithms is provided below:
-<img width="1135" height="746" alt="image" src="https://github.com/user-attachments/assets/81ba6606-c259-4c9f-ae6f-e0fd431586cb" />
+## ⭐ Features
+- Implements multiple regression algorithms for price prediction  
+- Uses a rich Kaggle dataset containing avocado prices and characteristics  
+- Includes exploratory data analysis, preprocessing, training, and evaluation  
+- Provides clear comparison of all models used  
+
+---
+
+## 🤖 Algorithms Used
+- Linear Regression  
+- Support Vector Regression (SVR)  
+- Random Forest Regressor  
+- Gradient Boosting Models (GBM)  
+- XGBoost  
+- AdaBoost Regressor  
+- Decision Tree Regressor  
+- KNeighborsRegressor (KNN)  
+- Artificial Neural Networks (ANN)  
+- LSTM (Long Short-Term Memory)  
+
+---
+
+## 📊 Dataset
+The dataset used in this project was taken from Kaggle and includes:
+- Average Price  
+- Total Volume  
+- PLU-coded volumes (4046, 4225, 4770)  
+- Total Bags  
+- Type (Conventional/Organic)  
+- Region  
+- Year  
+
+Path:  
+`data/avocado.csv`
+
+### 2️⃣ Explore the Data
+Open notebooks inside the `notebooks/` directory and run them in sequence.
+
+### 3️⃣ Train Models
+Execute scripts inside the `src/` folder to train or evaluate models.
+
+---
+
+## 🏆 Results
+
+### 🔢 Algorithm Ranking (1 → 10)
+1. Linear Regression  
+2. SVR  
+3. Random Forest  
+4. Gradient Boosting Models (GBM)  
+5. XGBoost  
+6. AdaBoost Regressor  
+7. Decision Tree  
+8. KNN  
+9. Artificial Neural Networks (ANN)  
+10. LSTM  
+
+### 📈 Accuracy Comparison (All 10 Regression Models)
+
+<img width="1100" src="https://github.com/user-attachments/assets/81ba6606-c259-4c9f-ae6f-e0fd431586cb" />
+
+---
+
+## 📬 Contact
+If you encounter issues or want to contribute, feel free to open an issue or pull request.
+
+
+
+---
+
+## 📁 Project Structure
