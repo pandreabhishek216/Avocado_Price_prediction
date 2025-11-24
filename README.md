@@ -67,19 +67,3 @@ Execute scripts inside the `src/` folder to train or evaluate models.
 <img width="1100" src="https://github.com/user-attachments/assets/81ba6606-c259-4c9f-ae6f-e0fd431586cb" />
 
 ---
-
-## 📬 Contact
-If you encounter issues or want to contribute, feel free to open an issue or pull request.
-
-
-
----
-
-## 📁 Project Structure
-Avocado_Price_Prediction/
-│
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks for EDA and model training
-├── src/ # Source code files for preprocessing, models, utils
-├── requirements.txt # List of dependencies
-└── README.md # Project documentation
