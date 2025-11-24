@@ -76,3 +76,10 @@ If you encounter issues or want to contribute, feel free to open an issue or pul
 ---
 
 ## 📁 Project Structure
+Avocado_Price_Prediction/
+│
+├── data/ # Dataset files
+├── notebooks/ # Jupyter notebooks for EDA and model training
+├── src/ # Source code files for preprocessing, models, utils
+├── requirements.txt # List of dependencies
+└── README.md # Project documentation
